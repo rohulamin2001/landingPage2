@@ -1,0 +1,714 @@
+/*
+  Theme Name: RA Portfolio Themes
+  Author: Rohul Amin
+  Description: RA - Creative Agency.
+  Version: 1.0.0
+*/
+
+
+/*-------------------------------------
+
+Table of contents
+
+
+*/
+
+
+/* css variables */
+
+:root {
+    --color-primary: #fed136;
+}
+
+
+/* General style */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+input:focus,
+button:focus {
+    outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--color-secondary) !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 500;
+    letter-spacing: -.00278rem;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: var(--color-gray);
+}
+
+
+/* font family */
+
+.theme-font {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.theme-font-2 {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+
+/* bg */
+
+.bg-primary {
+    background: var(--color-primary) !important;
+}
+
+.bg-white {
+    background: var(--color-white) !important;
+}
+
+.bg-gray {
+    background: var(--color-gray-2) !important;
+}
+
+
+/* font weight*/
+
+.font-weight-light {
+    font-weight: 300 !important;
+}
+
+.font-weight-regular {
+    font-weight: 400 !important;
+}
+
+.font-weight-medium {
+    font-weight: 500 !important;
+}
+
+.font-weight-semi-bold {
+    font-weight: 600 !important;
+}
+
+.font-weight-bold {
+    font-weight: 700 !important;
+}
+
+
+/* text color */
+
+.t-color-black {
+    color: var(--color-secondary) !important;
+}
+
+.t-color-primary {
+    color: var(--color-primary) !important;
+}
+
+
+/* font size */
+
+.font-size-50px {
+    font-size: 50px !important;
+}
+
+.font-size-45px {
+    font-size: 45px !important;
+}
+
+.font-size-40px {
+    font-size: 40px !important;
+}
+
+.font-size-35px {
+    font-size: 35px !important;
+}
+
+.font-size-30px {
+    font-size: 30px !important;
+}
+
+.font-size-28px {
+    font-size: 28px !important;
+}
+
+.font-size-26px {
+    font-size: 26px !important;
+}
+
+.font-size-24px {
+    font-size: 24px !important;
+}
+
+.font-size-22px {
+    font-size: 22px !important;
+}
+
+.font-size-20px {
+    font-size: 20px !important;
+}
+
+.font-size-18px {
+    font-size: 18px !important;
+}
+
+.font-size-16px {
+    font-size: 16px !important;
+}
+
+.font-size-15px {
+    font-size: 15px !important;
+}
+
+.font-size-14px {
+    font-size: 14px !important;
+}
+
+.font-size-13px {
+    font-size: 13px !important;
+}
+
+.font-size-12px {
+    font-size: 12px !important;
+}
+
+
+/* spacing */
+
+.padding-top-120px {
+    padding-top: 120px !important;
+}
+
+.padding-top-110px {
+    padding-top: 110px !important;
+}
+
+.padding-top-100px {
+    padding-top: 100px !important;
+}
+
+.padding-top-90px {
+    padding-top: 90px !important;
+}
+
+.padding-top-80px {
+    padding-top: 80px !important;
+}
+
+.padding-top-70px {
+    padding-top: 70px !important;
+}
+
+.padding-top-60px {
+    padding-top: 60px !important;
+}
+
+.padding-top-50px {
+    padding-top: 50px !important;
+}
+
+.padding-top-40px {
+    padding-top: 40px !important;
+}
+
+.padding-top-30px {
+    padding-top: 30px !important;
+}
+
+.padding-top-20px {
+    padding-top: 20px !important;
+}
+
+.padding-top-10px {
+    padding-top: 10px !important;
+}
+
+
+/* padding bottom */
+
+.padding-bottom-120px {
+    padding-bottom: 120px !important;
+}
+
+.padding-bottom-110px {
+    padding-bottom: 110px !important;
+}
+
+.padding-bottom-100px {
+    padding-bottom: 100px !important;
+}
+
+.padding-bottom-90px {
+    padding-bottom: 90px !important;
+}
+
+.padding-bottom-80px {
+    padding-bottom: 80px !important;
+}
+
+.padding-bottom-70px {
+    padding-bottom: 70px !important;
+}
+
+.padding-bottom-60px {
+    padding-bottom: 60px !important;
+}
+
+.padding-bottom-50px {
+    padding-bottom: 50px !important;
+}
+
+.padding-bottom-40px {
+    padding-bottom: 40px !important;
+}
+
+.padding-bottom-30px {
+    padding-bottom: 30px !important;
+}
+
+.padding-bottom-20px {
+    padding-bottom: 20px !important;
+}
+
+.padding-bottom-10px {
+    padding-bottom: 10px !important;
+}
+
+
+/* padding right */
+
+.padding-right-120px {
+    padding-right: 120px !important;
+}
+
+.padding-right-110px {
+    padding-right: 110px !important;
+}
+
+.padding-right-100px {
+    padding-right: 100px !important;
+}
+
+.padding-right-90px {
+    padding-right: 90px !important;
+}
+
+.padding-right-80px {
+    padding-right: 80px !important;
+}
+
+.padding-right-70px {
+    padding-right: 70px !important;
+}
+
+.padding-right-60px {
+    padding-right: 60px !important;
+}
+
+.padding-right-50px {
+    padding-right: 50px !important;
+}
+
+.padding-right-40px {
+    padding-right: 40px !important;
+}
+
+.padding-right-30px {
+    padding-right: 30px !important;
+}
+
+.padding-right-20px {
+    padding-right: 20px !important;
+}
+
+.padding-right-10px {
+    padding-right: 10px !important;
+}
+
+
+/* padding left */
+
+.padding-left-120px {
+    padding-left: 120px !important;
+}
+
+.padding-left-110px {
+    padding-left: 110px !important;
+}
+
+.padding-left-100px {
+    padding-left: 100px !important;
+}
+
+.padding-left-90px {
+    padding-left: 90px !important;
+}
+
+.padding-left-80px {
+    padding-left: 80px !important;
+}
+
+.padding-left-70px {
+    padding-left: 70px !important;
+}
+
+.padding-left-60px {
+    padding-left: 60px !important;
+}
+
+.padding-left-50px {
+    padding-left: 50px !important;
+}
+
+.padding-left-40px {
+    padding-left: 40px !important;
+}
+
+.padding-left-30px {
+    padding-left: 30px !important;
+}
+
+.padding-left-20px {
+    padding-left: 20px !important;
+}
+
+.padding-left-10px {
+    padding-left: 10px !important;
+}
+
+
+/* Header Css Start */
+
+.h2color {
+    color: var(--color-primary) !important;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #a58a25;
+}
+
+
+/* Banner Part Css Start */
+
+.banner-part {
+    padding: 240px 0 160px 0;
+    text-align: center;
+    background: url(../img/bannerPartBigImg.jpg) center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-part::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000b3;
+}
+
+.banner-text {
+    z-index: 99;
+    position: relative;
+    color: #ffffff;
+}
+
+.banner-text h4 {
+    font-size: 40px;
+    padding-bottom: 35px;
+}
+
+.banner-text h1 {
+    font-size: 76px;
+    padding-bottom: 35px;
+}
+
+.custom-btn {
+    width: 240px;
+    height: 65px;
+    background-color: #a58a25;
+    color: #ffffff;
+    border: none;
+    transition: .5s;
+    z-index: 99;
+    position: relative;
+}
+
+.custom-btn:hover {
+    background-color: #ffffff;
+    color: #a58a25;
+    transition: .5s;
+}
+
+
+/* Services part css start  */
+
+.service-part {
+    padding: 120px 0;
+}
+
+.service-item-1 {
+    padding-top: 80px;
+}
+
+.service-item-1 h3 {
+    font-size: 25px;
+    font-weight: 700;
+    padding: 25px 0 20px 0;
+}
+
+.service-item-1 p {
+    font-size: 16px;
+    padding: 0 40px;
+}
+
+
+/* portfolio section css start */
+
+.portfolio-part {
+    padding: 120px 0;
+    background-color: #eeebeb;
+}
+
+.service-text h4,
+.portfolio-text h4,
+.about-text h4,
+.team-text h4,
+.contact-top-text h4 {
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.service-text p,
+.portfolio-text p,
+.team-text p,
+.about-text p,
+.contact-top-text p {
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.card {
+    margin: auto;
+    border: none;
+    border-radius: 0;
+    width: 380px!important;
+}
+
+
+/* about part css start  */
+
+.about-part {
+    padding: 120px 0;
+}
+
+.about-item {
+    position: relative;
+    margin-bottom: 90px;
+}
+
+.about-item::after {
+    position: absolute;
+    content: '';
+    top: 100%;
+    left: 50%;
+    height: 93px;
+    width: 4px;
+    background-color: #919090cb;
+}
+
+.about-item-text-left {
+    padding: 0 50px;
+    margin-right: -30px;
+}
+
+.about-item-text-left h5 {
+    font-size: 23px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.about-item-text-right h5 {
+    font-size: 23px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.about-item-text-right {
+    padding: 0 50px;
+    margin-left: -30px;
+}
+
+.about-item-last {
+    position: relative;
+}
+
+.last-item-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+}
+
+
+/* team part css start  */
+
+.team-part {
+    padding: 120px 0;
+    background-color: #eeeeea;
+}
+
+.team-item-text {
+    text-align: center;
+}
+
+.team-item img {
+    border-radius: 50%;
+}
+
+.team-item-text p i {
+    font-size: 30px;
+}
+
+.fb-icon {
+    padding: 0 15px;
+}
+
+.team-item-bottom-text {
+    padding: 80px 180px 0 180px;
+}
+
+.team-item-text ul {
+    display: inline-flex;
+    text-align: center;
+    border: 3px solid;
+    padding: .3em 1em;
+    margin-top: 1em;
+    border-radius: 30px;
+}
+
+.team-item-text ul li {
+    width: 40px;
+    height: 40px;
+    border: 3px solid #a58a25;
+    position: relative;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.team-item-text ul li:hover {
+    color: white;
+    background-color: #a58a25;
+    transition: all .5s;
+    border: 3px solid #343333;
+}
+
+.team-item-text ul li i {
+    font-size: 25px;
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* support part css start  */
+
+.support-part {
+    padding: 100px 0;
+}
+
+
+/* contact part css start  */
+
+.contact-part {
+    padding: 120px 0;
+    background: url(../img/contactBg.jpg) center no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.contact-part::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000d5;
+}
+
+.contact-top-text {
+    position: relative;
+    z-index: 99;
+    color: #ffffff;
+}
+
+.contact-form-left,
+.contact-form-right {
+    z-index: 99;
+    position: relative;
+}
+
+#textArea {
+    height: 205px;
+}
+
+
+/* scrollUp css start  */
+
+#scrollUp {
+    bottom: 20px;
+    right: 20px;
+    background: url(../img/top.png) center no-repeat;
+    background-size: cover;
+    font-size: 50px;
+    width: 30px;
+    height: 30px;
+}
+
+
+/* footer part css  */
+
+.footer-part {
+    padding: 40px 0;
+}

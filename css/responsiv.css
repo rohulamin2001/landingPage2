@@ -1,0 +1,175 @@
+/* breakpoint */
+
+@media (max-width: 575.98px) {
+    /* === Responsive Not Availabe === */
+    /* If you need to responsive for this device then you can nock me anytime */
+}
+
+
+/* == Responsive Available == */
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .banner-part {
+        padding: 120px 0 60px 0;
+    }
+    .service-part,
+    .portfolio-part,
+    .about-part,
+    .team-part,
+    .contact-part,
+    .support-part {
+        padding: 50px 0;
+    }
+    .banner-text h1 {
+        font-size: 38px;
+    }
+    .banner-text h4 {
+        font-size: 25px;
+    }
+    .custom-btn {
+        width: 160px;
+        height: 46px;
+    }
+    .service-item-1 {
+        padding-top: 40px;
+    }
+    .card {
+        width: 360px !important;
+        margin-bottom: 25px;
+    }
+    .about-item-text-left {
+        padding: 0;
+        margin-right: 0px;
+    }
+    .about-item-text-right {
+        padding: 0 0 0 20px;
+        margin-left: 0px;
+    }
+    .about-item::after {
+        display: none;
+    }
+    .team-item img {
+        width: 263px;
+    }
+    .team-item {
+        margin-bottom: 2em;
+    }
+    .last-item-text {
+        width: 110px;
+        font-size: 18px;
+    }
+    .team-item-bottom-text {
+        padding: 22px 50px 0 50px;
+    }
+    .support-item {
+        padding-bottom: 1em;
+    }
+    .navbar-nav {
+        text-align: center;
+        background: #1a1d20;
+        border-radius: 30px;
+    }
+    button:focus:not(:focus-visible) {
+        outline: 0;
+        box-shadow: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .banner-part {
+        padding: 150px 0 100px 0;
+    }
+    .banner-text h1 {
+        font-size: 55px;
+    }
+    .service-part,
+    .portfolio-part,
+    .about-part,
+    .team-part,
+    .contact-part,
+    .support-part {
+        padding: 50px 0;
+    }
+    .service-item-1 {
+        padding-top: 35px;
+    }
+    .card {
+        width: 320px !important;
+        margin-bottom: 25px;
+    }
+    .last-item-text {
+        width: 115px;
+    }
+    .team-item img {
+        width: 300px;
+    }
+    .team-item {
+        margin-bottom: 3em;
+    }
+    .team-item-bottom-text {
+        padding: 1px 90px 0 90px;
+    }
+    .support-item {
+        padding-bottom: 1em;
+    }
+    .about-item-text-left {
+        padding: 0;
+        margin-right: 0;
+    }
+    .about-item-text-right {
+        padding: 0;
+        margin-left: 0;
+    }
+    .navbar-nav {
+        text-align: center;
+        background: #1a1d20;
+        border-radius: 30px;
+    }
+    button:focus:not(:focus-visible) {
+        outline: 0;
+        box-shadow: none;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .banner-text h1 {
+        font-size: 66px;
+    }
+    .banner-part {
+        padding: 180px 0 100px 0;
+    }
+    .service-part,
+    .portfolio-part,
+    .about-part,
+    .team-part,
+    .contact-part {
+        padding: 70px 0;
+    }
+    .card {
+        width: 280px !important;
+    }
+    .about-item::after {
+        left: 65%;
+    }
+    .about-item-text-right {
+        margin-left: 0px;
+    }
+    .last-item-text {
+        left: 66%;
+    }
+    .team-item img {
+        width: 250px;
+    }
+    .support-part {
+        padding: 50px 0;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .card {
+        width: 340px !important;
+    }
+    .last-item-text {
+        left: 55%;
+    }
+}
